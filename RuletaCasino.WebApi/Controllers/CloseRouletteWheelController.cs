@@ -44,7 +44,6 @@ namespace RuletaCasino.WebApi.Controllers
 
                 WinningNumber = GetWinningNumber();
 
-                WinningNumber = 15;
                 WinningNumberInDB(IdRoundBet, WinningNumber);
 
                 ListWinners = GetWinners(IdRoundBet);
